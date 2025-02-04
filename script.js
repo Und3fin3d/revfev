@@ -44,13 +44,12 @@ revFev.addEventListener('dragstart', function(e) {
 
 revFev.addEventListener('mousedown', function(e) {
     e.preventDefault()
-    console.log('mousedown')
     beingDragged = true
     dx = 0
     dy = 0
 })
 
-revFev.addEventListener('mousemove', function(e) {
+document.addEventListener('mousemove', function(e) {
     if (beingDragged) {
         let x1 = e.clientX - revFev.offsetWidth / 2
         let y1 = e.clientY - revFev.offsetHeight / 2
@@ -61,7 +60,7 @@ revFev.addEventListener('mousemove', function(e) {
     }
 })
 
-revFev.addEventListener('mouseup', function() {
+document.addEventListener('mouseup', function() {
     if (beingDragged) {
         beingDragged = false
         dx = ddx
