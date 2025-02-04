@@ -4,8 +4,8 @@ let beingDragged = false
 let e = 0.5
 let x = (window.innerWidth - revFev.offsetWidth) / 2
 let y = (window.innerHeight - revFev.offsetHeight) / 2
-let momx = 0
-let momy = 0
+let ddx = 0
+let ddy = 0
 let dx = 0
 let dy = 0
 
@@ -50,8 +50,8 @@ document.addEventListener('mousemove', function(e) {
     if (beingDragged) {
         let x1 = e.clientX - revFev.offsetWidth / 2;
         let y1 = e.clientY - revFev.offsetHeight / 2;
-        momx = x1 - x;
-        momy = y1 - y;
+        ddx = x1 - x;
+        ddy = y1 - y;
         x = x1;
         y = y1;
     }
@@ -60,8 +60,8 @@ document.addEventListener('mousemove', function(e) {
 document.addEventListener('mouseup', function() {
     if (beingDragged) {
         beingDragged = false;
-        dx = momx;
-        dy = momy;
+        dx = ddx;
+        dy = ddy;
     }
 });
 
@@ -78,8 +78,8 @@ revFev.addEventListener('touchmove', function(e) {
         let touch = e.touches[0];
         let x1 = touch.clientX - revFev.offsetWidth / 2;
         let y1 = touch.clientY - revFev.offsetHeight / 2;
-        momx = x1 - x;
-        momy = y1 - y;
+        ddx = x1 - x;
+        ddy = y1 - y;
         x = x1;
         y = y1;
     }
@@ -87,8 +87,8 @@ revFev.addEventListener('touchmove', function(e) {
 
 revFev.addEventListener('touchend', function() {
     beingDragged = false;
-    dx = momx;
-    dy = momy;
+    dx = ddx;
+    dy = ddy;
 });
 
 moveFev();
