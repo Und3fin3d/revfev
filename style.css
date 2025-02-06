@@ -34,9 +34,6 @@ body {
     align-items: center;
 }
 
-.container li {
-    margin: 0 10px;
-}
 
 .container a {
     text-decoration: none;
@@ -46,4 +43,20 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+.icon {
+    height: 60%;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+}
+
+
+#show {
+    display: none; /* hide the show icon by default */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
 }
