@@ -54,9 +54,9 @@ body {
 
 
 #show {
-    display: none; /* hide the show icon by default */
+    display: none;
     position: fixed;
-    top: 10px;
-    left: 10px;
+    right: 2vw;
+    height: 10vh;
     cursor: pointer;
 }
