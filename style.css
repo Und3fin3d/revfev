@@ -50,6 +50,7 @@ body {
     stroke: currentColor;
     stroke-width: 2;
     stroke-linecap: round;
+    cursor: pointer;
 }
 
 
@@ -58,5 +59,4 @@ body {
     position: fixed;
     right: 2vw;
     height: 10vh;
-    cursor: pointer;
 }
