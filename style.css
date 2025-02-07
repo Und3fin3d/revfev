@@ -133,16 +133,18 @@ body {
   margin-bottom: 2vh;
 }
 
-.socials a svg{
+.socials a {
+  cursor: pointer;
+}
+
+.socials a svg {
   width: 3vh;
   height: 3vh;
   display: inline-block;
   vertical-align: middle;
 }
+
 .socials a img {
   width: auto;
   height: 3vh;
-}
-.socials a {
-  cursor: pointer;
 }
