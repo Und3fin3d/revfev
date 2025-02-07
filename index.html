@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>Reverend Feathers</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,21 +12,46 @@
       <li><a href="index.html">Home</a></li>
       <li><a href="game.html">Game</a></li>
       <li><a href="rule.html">Rules</a></li>
-      <svg id="hide" class="icon" viewBox="0 0 24 24">
-        <path d="M18 6L6 18M6 6l12 12"/>
-      </svg>
     </ul>
   </div>
-  <svg id="show" class="icon" viewBox="0 0 24 24">
-    <path d="M4 6h16M4 12h16M4 18h16"/>
+  <svg id="toggle" class="icon open" viewBox="0 0 24 24">
+    <path class="hamburger" d="M4 6h16M4 12h16M4 18h16"/>
+    <path class="cross" d="M18 6L6 18M6 6l12 12"/>
   </svg>
   <div class="cont">
+    <h1 class="name">Reverend Feathers</h1>
     <img id="bio-pic" src="bio.png" alt="Bio Picture">
+    <div class="socials">
+      <a href="https://www.sucu.org.uk/" target="_blank">
+        <img src="sucu.png">
+      </a>
+      <a href="https://www.instagram.com/gleneyreimpactgroup/" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M16.8503 0H7.14973C3.20735 0 0 3.20735 0 7.14973V16.8503C0 20.7926 3.20735 24 7.14973 24H16.8503C20.7926 24 24 20.7926 24 16.8503V7.14973C24 3.20735 20.7926 0 16.8503 0ZM21.5856 16.8503C21.5856 19.4655 19.4655 21.5856 16.8503 21.5856H7.14973C4.5345 21.5856 2.4144 19.4655 2.4144 16.8503V7.14973C2.4144 4.53446 4.5345 2.4144 7.14973 2.4144H16.8503C19.4655 2.4144 21.5856 4.53446 21.5856 7.14973V16.8503ZM12.0002 5.79297C8.57754 5.79297 5.79297 8.57754 5.79297 12.0002C5.79297 15.4228 8.57754 18.2074 12.0002 18.2074C15.4229 18.2074 18.2075 15.4229 18.2075 12.0002C18.2075 8.57749 15.4229 5.79297 12.0002 5.79297ZM12.0002 15.7931C9.90547 15.7931 8.20737 14.095 8.20737 12.0002C8.20737 9.90547 9.90551 8.20737 12.0002 8.20737C14.095 8.20737 15.7931 9.90547 15.7931 12.0002C15.7931 14.0949 14.0949 15.7931 12.0002 15.7931ZM19.7067 5.83895C19.7067 6.66041 19.0408 7.32633 18.2193 7.32633C17.3979 7.32633 16.7319 6.66041 16.7319 5.83895C16.7319 5.01749 17.3979 4.35156 18.2193 4.35156C19.0408 4.35156 19.7067 5.01749 19.7067 5.83895Z"/>
+          <defs>
+            <linearGradient id="paint0_linear_2094_61147" x1="12" y1="25.5" x2="12" y2="-4.5" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#ECAE5B"/>
+              <stop offset="0.3" stop-color="#E46062"/>
+              <stop offset="0.6" stop-color="#D6308A"/>
+              <stop offset="1" stop-color="#9341EE"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+      <a href="https://github.com/Und3fin3d/revfev" target="_blank">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+      </a>
+    </div>
+    <h2>Biography</h2>
     <div class="bio">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet, urna a vehicula fermentum, lectus erat lobortis nunc, in suscipit ligula purus a nibh. Curabitur vel semper nisl, id tincidunt est. Nam nec purus et libero convallis rutrum. Donec commodo mi in ante volutpat, ac pellentesque lorem placerat. Vivamus ac orci ut ligula ornare pretium. Quisque non erat vitae tortor facilisis laoreet.</p>
       <p>Suspendisse potenti. Pellentesque eget dui sit amet odio molestie elementum. Nulla id interdum odio. Morbi in mi et sapien mattis pulvinar. Etiam euismod, augue a gravida interdum, risus arcu pharetra ante, nec porta odio magna ut turpis.</p>
     </div>
-    <img id="build" src="build.png" alt="Under Construction">
+    <h2>Friends</h2>
+    <h2>Travels</h2>
+    <h2>Skills</h2>
   </div>
   <script src="script.js"></script>
 </body>
