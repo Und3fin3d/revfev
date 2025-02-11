@@ -187,3 +187,16 @@ body {
   font-size: 0.9rem;
   color: #666;
 }
+
+.map {
+  display: block;
+  width: 95vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#uk {
+  height: 85vh;
+  width:auto;
+}
