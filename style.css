@@ -149,8 +149,7 @@ body {
   height: 3vh;
 }
 
-/* Friends section styling */
-.friends-grid {
+.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
@@ -159,7 +158,7 @@ body {
   padding: 1rem;
 }
 
-.friend-card {
+.card {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -167,22 +166,22 @@ body {
   text-align: center;
 }
 
-.friend-card img {
+.card img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.friend-info {
+.info {
   padding: 0.5rem 1rem;
 }
 
-.friend-info h3 {
+.info h3 {
   margin: 0.5rem 0;
   font-size: 1.2rem;
 }
 
-.friend-info p {
+.info p {
   margin: 0;
   font-size: 0.9rem;
   color: #666;
@@ -199,4 +198,14 @@ body {
 #uk {
   height: 85vh;
   width:auto;
+}
+
+.skills .card{
+
+}
+.skills .card img{
+  
+}
+.skills .card .info{
+  
 }
